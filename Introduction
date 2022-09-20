@@ -1,0 +1,5 @@
+Semi-Supervised Portrait Matting using Transformer
+
+we design a semi-supervised network that leverages Transformer to capture the relationships among all pixels. A CNN-based portrait detail decoding module is embedded in the network to compensate for local pixel relationships that Transformer ignores when performing global operations.  In addition, to provide more refined pseudo-labels in semi-supervised learning, we design an intelligent pseudo-label generation strategy. This strategy can generate more detailed pseudo-labels than predicted results through redundant foreground filtering and edge adjustment.
+
+The training models and the code will be released soon.
